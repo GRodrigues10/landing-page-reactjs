@@ -7,3 +7,22 @@
     position: relative;
     /* background-color: aqua; */
 }
+
+.container .elipse-container{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.container .elipse-container .elipse-left{
+    max-width: 600px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+    
+    position: absolute;
+}
